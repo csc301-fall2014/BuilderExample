@@ -1,5 +1,4 @@
-BuilderExample
-==============
+# The _Builder_ Design Pattern
 
 Let's try to complete the implementation of [`CanadianAddress.java`](src/csc301/builderExample/CanadianAddress.java) ...
 

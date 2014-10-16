@@ -1,7 +1,7 @@
 BuilderExample
 ==============
 
-Let's try to complete the implementation of `CanadianAddress.java` ...
+Let's try to complete the implementation of [`CanadianAddress.java`](src/csc301/builderExample/CanadianAddress.java) ...
 
  * [Step 1](https://github.com/csc301-fall2014/BuilderExample/tree/step1)
  * [Step 2](https://github.com/csc301-fall2014/BuilderExample/tree/step2)

@@ -50,7 +50,7 @@ public class CanadianAddressBuilder {
 	
 	public CanadianAddress build(){
 		// At this point, we can validate the arguments
-		CanadianAddressImpl a = new CanadianAddressImpl();
+		CanadianAddress a = new CanadianAddress();
 		a.setApartmentNumber(apartmentNumber);
 		a.setStreetNumber(streetNumber);
 		a.setStreetName(streetName);

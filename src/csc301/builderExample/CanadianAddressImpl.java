@@ -1,9 +1,6 @@
 package csc301.builderExample;
 
 
-/**
- * Starter code, missing most of the implementation.
- */
 public class CanadianAddressImpl implements CanadianAddress {
 
 	

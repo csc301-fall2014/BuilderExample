@@ -1,9 +1,6 @@
 package csc301.builderExample;
 
 
-/**
- * Starter code, missing most of the implementation.
- */
 public class CanadianAddressImpl implements CanadianAddress {
 
 	
@@ -16,6 +13,19 @@ public class CanadianAddressImpl implements CanadianAddress {
 	private String postalCode;
 	
 	
+	
+	public CanadianAddressImpl(String apartmentNumber, String streetNumber,
+			String streetName, String streetType, String city, String province,
+			String postalCode) {
+		this.apartmentNumber = apartmentNumber;
+		this.streetNumber = streetNumber;
+		this.streetName = streetName;
+		this.streetType = streetType;
+		this.city = city;
+		this.province = province;
+		this.postalCode = postalCode;
+	}
+
 	
 	@Override
 	public String getApartmentNumber() {

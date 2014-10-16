@@ -1,8 +1,7 @@
 BuilderExample
 ==============
 
-This solution makes `CanadianAddressImpl` less cohesive, and is an example of __bad design__ (aka _anti-pattern_).    
-`CanadianAddressImpl` has two responsibilities:
+This solution is the __bad example__. It makes the `CanadianAddress` class less cohesive, by giving it two different responsibilities:
   * Represent a Canadian address.
   * Parse strings that represent Canadian addresses.
    

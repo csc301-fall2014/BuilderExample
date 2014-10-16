@@ -1,7 +1,4 @@
-BuilderExample
-==============
-
-This solution is the __bad example__. It makes the `CanadianAddress` class less cohesive, by giving it two different responsibilities:
+This solution is the __bad example__. It makes the [`CanadianAddress`](src/csc301/builderExample/CanadianAddress.java) class less cohesive, by giving it two different responsibilities:
   * Represent a Canadian address.
   * Parse strings that represent Canadian addresses.
    

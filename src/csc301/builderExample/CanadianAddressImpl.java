@@ -16,7 +16,19 @@ public class CanadianAddressImpl implements CanadianAddress {
 	private String postalCode;
 	
 	
+	public CanadianAddressImpl(String fullAddress) {
+		parseAddress(fullAddress);
+	}
 	
+	
+	
+	private void parseAddress(String fullAddress) {
+		// Parse the address somehow, and populate the various
+		// instance variables ...
+	}
+
+
+
 	@Override
 	public String getApartmentNumber() {
 		return apartmentNumber;

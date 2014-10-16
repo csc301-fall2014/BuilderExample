@@ -1,6 +1,3 @@
-BuilderExample
-==============
-
 We "solved" the telescoping constructor problem by
  * Providing a default constructor (i.e. a constructor with 0 arguments).
  * Providing setters for all properties.

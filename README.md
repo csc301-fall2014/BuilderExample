@@ -1,15 +1,10 @@
-BuilderExample
-==============
-
-With this solution, `CanadianAddressImpl` has only one responsibility - It represents a Canadian address.    
+With this solution, [`CanadianAddress`](src/csc301/builderExample/CanadianAddress.java) has only one responsibility - It represents a Canadian address.    
 That's good, but we can notice another problem:
- * `CanadianAddressImpl`'s constructor takes 7 arguments.
+ * [`CanadianAddress`](src/csc301/builderExample/CanadianAddress.java)'s constructor takes 7 arguments.
  * Even worse, all arguments are of type String.
- * When we instantiate `CanadianAddressImpl`, we will need to remember the order of the arguments, and get them right.
+ * When we instantiate [`CanadianAddress`](src/csc301/builderExample/CanadianAddress.java), we will need to remember the order of the arguments, and get it right every time we change the code.
   
- 
-This problem is known as the _telescoping constructor anti-pattern_.     
+This problem is known as the __telescoping constructor__ anti-pattern.     
  * Slows down developers.
- * Makes the code error-prone.     
-   Especially, when you need to change a class with a telescoping constructor.
+ * Makes the code error-prone.
 

@@ -14,6 +14,36 @@ public class CanadianAddressImpl implements CanadianAddress {
 	
 	
 	
+	
+	
+	public void setApartmentNumber(String apartmentNumber) {
+		this.apartmentNumber = apartmentNumber;
+	}
+
+	public void setStreetNumber(String streetNumber) {
+		this.streetNumber = streetNumber;
+	}
+
+	public void setStreetName(String streetName) {
+		this.streetName = streetName;
+	}
+
+	public void setStreetType(String streetType) {
+		this.streetType = streetType;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public void setProvince(String province) {
+		this.province = province;
+	}
+
+	public void setPostalCode(String postalCode) {
+		this.postalCode = postalCode;
+	}
+
 	@Override
 	public String getApartmentNumber() {
 		return apartmentNumber;

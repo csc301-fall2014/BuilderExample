@@ -1,4 +1,4 @@
 BuilderExample
 ==============
 
-An example of the Builder design pattern
+TODO: Links to the different branches

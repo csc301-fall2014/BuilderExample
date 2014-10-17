@@ -7,3 +7,6 @@ The problem is that we made it way too easy for other developers/classes to (acc
 We want to ensure that it is impossible to create invalid/illegal [`CanadianAddress`](src/csc301/builderExample/CanadianAddress.java) instances.     
 
 Notice that this requirement is easy to satisfy with [our previous solution](https://github.com/csc301-fall2014/BuilderExample/blob/step2/src/csc301/builderExample/CanadianAddress.java) - If the arguments to the constructor are invalid, we throw an exception.
+
+----
+[Step 4](https://github.com/csc301-fall2014/BuilderExample/tree/step4)

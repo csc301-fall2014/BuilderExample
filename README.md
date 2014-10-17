@@ -2,7 +2,7 @@ We "solved" the telescoping constructor problem by
  * Providing a default constructor (i.e. a constructor with 0 arguments).
  * Providing setters for all properties.
 
-The problem is that we made it way too easy for other developers/classes to (accidently) create invalid/illegal instances (e.g. An address that is missing the street name).
+The problem is that we made it way too easy for other developers/classes to (accidently) create invalid/illegal instances (e.g. an address that is missing the street name).
 
 We want to ensure that it is impossible to create invalid/illegal [`CanadianAddress`](src/csc301/builderExample/CanadianAddress.java) instances.     
 
